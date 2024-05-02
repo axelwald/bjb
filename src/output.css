@@ -546,6 +546,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+}
+
 .sr-only{
   position: absolute;
   width: 1px;
@@ -630,6 +644,18 @@ video {
 
 .h-8{
   height: 2rem;
+}
+
+.h-\[5\.5rem\]{
+  height: 5.5rem;
+}
+
+.h-20{
+  height: 5rem;
+}
+
+.h-\[5\.5\]{
+  height: 5.5;
 }
 
 .w-6{

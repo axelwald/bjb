@@ -15,7 +15,7 @@
     <div class="relative flex h-16 items-center">
       <div class="flex flex-1 items-center justify-center">
         <div class="hidden sm:block">
-          <div class="flex space-x-8 h-10 w-auto">
+          <div class="flex noselect space-x-8 h-10 w-auto">
             <img src="images/emils-farsa-favorit.png" alt="">
             <img src="images/lockheed-martin.png" alt="">
             <img src="images/bankmerica.png" alt="">
@@ -61,7 +61,7 @@
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch">
           <div class="flex flex-shrink-0 items-center">
-            <img class="h-8 w-auto" src="images/bjb-logo.png" alt="BJB Logga">
+            <img class="noselect h-8 w-auto" src="images/bjb-logo.png" alt="BJB Logga">
 
           </div>
           <div class="hidden sm:ml-6  sm:block">
@@ -112,7 +112,7 @@
     </div>
     </div>
 
-    
+
 
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="sm:hidden" id="mobile-menu">
@@ -120,28 +120,31 @@
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <!-- Knappar för navbaren på mobil -->
         <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
-          aria-current="page">Dashboard</a>
+          aria-current="page">Home</a>
         <a href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Roster</a>
         <a href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Merch</a>
         <a href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">News</a>
+        <a href="#"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
       </div>
     </div>
 
   </nav>
 
-  
-    <div class="mx-auto p-3 px-2 sm:p x-6 lg:px-8 w-full  bg-[#a52db5]">
-      <div class="relative flex h-16 items-center "> 
-      <div class="text-5xl pt-4  text-[#7af500]  after:content-['HOME'] after:flex after:mirror after:bg-clip-text font-[Kanit] after:relative after:bottom-4 after:text-[#d600f4] ">HOME</div>
-      <div></div>
-      </div>
+
+  <div class="mx-auto p-3 px-2 sm:p x-6 lg:px-8 w-full  bg-[#a52db5]">
+    <div class="relative flex items-center h-[5.5rem]">
+      <div
+        class="noselect text-5xl pt-4 text-[#7af500]  after:content-['HOME'] after:flex after:mirror after:bg-clip-text font-[Kanit] after:relative after:bottom-4 after:text-[#d600f4] ">
+        HOME</div>
     </div>
-  
-    
-  
+  </div>
+
+
+
 </body>
 
 </html>
