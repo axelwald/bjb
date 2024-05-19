@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/output.css" rel="stylesheet">
+
+  <title>Big Juicy Boys</title>
+</head>
+
+<body class="bg-[#6e3b75] noselect  overflow-x-hidden">
+
+  <div class="bg-black"> 
+    <div class="relative flex h-16 items-center">
+      <div class="flex flex-1 items-center justify-center">
+        <div class="hidden sm:block">
+          <div class="flex noselect space-x-8 h-10 w-auto">
+            <img src="images/emils-farsa-favorit.png" alt="">
+            <img src="images/lockheed-martin.png" alt="">
+            <img src="images/bankmerica.png" alt="">
+            <img src="images/Viagra Logo.png" alt="">
+            <img src="images/Albania.png" alt="">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="bg-gray-950">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div class="relative flex h-16 items-center justify-between">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <!-- Mobile menu button-->
+          <button type="button"
+            class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            aria-controls="mobile-menu" aria-expanded="false">
+            <span class="absolute -inset-0.5"></span>
+            <span class="sr-only">Open main menu</span>
+            <!--
+            Icon when menu is closed.
+
+            Menu open: "hidden", Menu closed: "block"
+          -->
+            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <!--
+            Icon when menu is open.
+
+            Menu open: "block", Menu closed: "hidden"
+          -->
+            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex flex-1 items-center justify-center sm:items-stretch">
+          <div class="flex flex-shrink-0 items-center">
+            <img class="noselect h-8 w-auto" src="images/bjb-logo.png" alt="BJB Logga">
+
+          </div>
+          <div class="hidden sm:ml-6  sm:block">
+            <div class="flex space-x-4">
+              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+              <a href="../index.html"
+                class="text-g hover:bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium"
+                aria-current="page">Home</a>
+              <a href="src/pages/news.html"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">News</a>
+              <a href="src/pages/roster.html"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Roster</a>
+              <a href="src/pages/merch.html"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Merch</a>
+              <a href="src/pages/about.html"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About us</a>
+            </div>
+          </div>
+        </div>
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <button type="button"
+            class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+            <span class="absolute -inset-1.5"></span>
+            <span class="sr-only">View notifications</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+            </svg>
+          </button>
+
+          <!-- Profile dropdown -->
+
+          <!--
+            Dropdown menu, show/hide based on menu state.
+
+            Entering: "transition ease-out duration-100"
+              From: "transform opacity-0 scale-95"
+              To: "transform opacity-100 scale-100"
+            Leaving: "transition ease-in duration-75"
+              From: "transform opacity-100 scale-100"
+              To: "transform opacity-0 scale-95"
+          -->
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="sm:hidden" id="mobile-menu">
+      <div class="space-y-1 px-2 pb-3 pt-2">
+        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+        <!-- Knappar för navbaren på mobil -->
+        <a href="index.html" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+          aria-current="page">Home</a>
+        <a href="src/pages/news.html"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">News</a>
+        <a href="src/pages/roster.html"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Roster</a>
+        <a href="src/pages/merch.html"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Merch</a>
+        <a href="src/pages/about.html"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About us</a>
+      </div>
+    </div>
+
+  </nav>
+
+
+  <div class="mx-auto px-2 sm:p x-6 lg:px-8 w-full  bg-[#a52db5]">
+    <div class="relative flex items-center ">
+      <div
+        class="noselect text-5xl pl-5 pt-4 text-[#7af500]  after:content-['HOME'] after:flex after:mirror after:bg-clip-text font-[Kanit] after:relative after:bottom-4 after:text-[#d600f4] ">
+        HOME</div>
+    </div>
+  </div>
+
+  <div class="p-[8rem] pt-2 pb-0">
+    <div class="grid grid-rows-2 grid-cols-4 gap-4">
+        <div class="bg-purple-500 col-span-2 row-span-2 p-4 text-white">INFO BOARD GOES HERE</div> <!-- First div -->
+        <div class="bg-purple-500 col-span-2 row-span-1 p-4 text-white">VIEW ROSTER</div> <!-- Second div -->
+        <div class="bg-purple-500 col-span-1 row-span-1 p-4 text-white">Merch</div> <!-- Third div -->
+        <div class="bg-purple-500 col-span-1 row-span-1 p-4 text-white">News</div> <!-- Fourth div -->
+    </div>
+</div>
+
+<div class="bg-[#A52DB5] h-auto w-full mt-10 mb-10">
+<div class="p-[8rem] pt-10 pb-0">
+  <h2 class="mb-4 text-[#7af500] font-kanit font-bold text-center text-5xl">GAMES</h2>
+  <div class="grid grid-cols-3 gap-4 bg-[#a52db5]">
+      <div class=" p-4 flex justify-center items-center ">
+        <img class="object-cover bg-[#D600F4] h-[7rem] w-[7rem] p-2 rounded-md"
+        src="./images/Competitive_logo_cs2.webp" alt="Picture of CS2">
+      </div>
+      <div class=" p-4 flex justify-center items-center">
+        <img class="object-cover bg-[#D600F4] h-[7rem] w-[7rem] p-2 rounded-md" 
+        src="https://s3-alpha-sig.figma.com/img/bfde/8f3f/1b0af9d8426cb5688dc35089c4e70d6a?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VhEts8im30qu2-eJkl19Tz9z4Xr6FU7VNkuY~05AwIFV4a~nq7QjJE3HPI6j7E5a3J5FKUxUTd3MnFmguBLjPbSWZtYU~ymOLm6fuUu4DTrdTXwOsWMpP1S0TDqmLI3t38hpj9BaOG-VuWs7T6Xgpw4t8muk~t668PtotxIh-I-TQ8SFNUKaW4oLgLxQZHEtWmA1fY-2cWe7xpNZ3mZaw4qacpcdUus-Ly8X9iSfbBm39iW0SzLb~ckm1SwqA8N~oW3ROFIGEtKkd7S7aFwzyE2QVeyd5opqkNZ0PoG9k8RWrMyUxetQ4Py25drGbj18kQkzulz3OavkZfrhq3xx~g__" alt="">
+      </div>
+      <div class=" p-4 flex justify-center items-center rounded">
+        <img class="object-contain bg-[#D600F4] h-[7rem] w-[7rem] p-2 rounded-md" 
+        src="https://s3-alpha-sig.figma.com/img/62c8/53b1/bbfdbd9a146da13250d41699e49361d5?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ajduTu6SLiYqNpqtx2DGEtmyHg6BW1D8l84AtiRfm0t4PVlssqsjgIqfqRfjur0Bi3WSx5h~dCSGsAj65uhD~wXbDkV83BEyz0QDUlcnk0Oe8B6IGK6zMU-WIluxe0NSxaH0fikKWI~q1vjiws-wLY5Ogc8pIKiXVShFRoOlJpKdRWApsGe4NEAuQ4jMFFHl0Hkw0qr5MNdyzWCuBXtXXepRtQhajDh9-Er2GRPScczyw9dKRmEM9VkdL6l0IfcB27vNf6xpG16~LHQPRL8YxWiwuKMegjYsmMyrqNoIfAWki8CqLqY7LxhxYkz-lQ-kgIQojFP3lCrgQNKrGm~d6g__" alt="">
+      </div>
+  </div>
+</div>
+
+<div class="p-[8rem] pt-14">
+  <h2 class="mb-4 text-[#7af500] font-kanit font-bold text-center text-5xl">UPCOMING MATCHES</h2>
+  <div class="grid grid-cols-3 gap-4">
+      <div class="bg-blue-800 p-4 flex justify-center items-center">VS Cloud9</div>
+      <div class="bg-red-700 p-4 flex justify-center items-center">VS NAVI</div>
+      <div class="bg-purple-800 p-4 flex justify-center items-center">VS London</div>
+  </div>
+</div>
+</div>
+
+<div class="bg-black text-white py-4 px-1">
+  <div class="max-w-screen-lg mx-auto flex justify-between items-center w-full">
+      <div class="text-left ">
+          Big Juicy Boys 2023-2024 &#169
+      </div>
+      <div class="text-right">
+          This site is owned and operated by Big Juicy Boys LLC
+      </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
